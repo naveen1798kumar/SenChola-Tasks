@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+label{
+    padding-bottom: 5px;
+}
+form{
+    /* background-color: red; */
+    width: 60%;
+    /* height: 50%; */
+    padding: 30px;
+    /* text-align: center; */
+    border-radius: 20px;
+    outline: 1px solid black;
+}
+
+#form-page{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 450px;
+    height: 30px;
+    /* background-color: gray; */
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.input-section{
+    padding: 10px;
+    display: grid;
+}
+
+.input-gender{
+    padding: 10px;
+}
+
+form #address{
+    height: 50px;
+}

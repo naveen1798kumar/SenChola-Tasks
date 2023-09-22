@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+        .table{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        table *{
+            padding: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="table">
+        <table border="2px">
+      <thead>
+        <td colspan="6"><center>Time Table</center></td>
+      </thead>
+      <tbody>
+        <tr>
+            <th rowspan="6">Hours</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td colspan="5"><center>Lunch</center></td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td rowspan="2" colspan="2"><center>Project</center></td>
+        </tr>
+        <td>Mathh</td>
+        <td>cience</td>
+        <td>Math</td>
+        <!-- <td>Project</td> -->
+      </tbody>
+        </table>
+    </div>
+  </body>
+</html>
